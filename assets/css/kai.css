@@ -1,0 +1,435 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+
+.main-slides-item {
+  background-image: url('../imgs/home-bg.png');
+  background-position: center bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 250px;
+  padding-bottom: 200px;
+}
+
+
+body {
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
+  background-color: #f5f2ee;
+}
+
+.services-area, 
+.blog-area,
+.copyright-area {
+  background-color: #f5f2ee;
+}
+
+.philosophy-area,
+.philosophy-area::before {
+  background-color: #e4dcd7;
+}
+
+.footer-area.bg-top {
+  padding-top: 50px;
+}
+
+.footer-area,
+.footer-area::before {
+  background: #e4dcd7;
+}
+
+.single-footer-widget p {
+  color: #333;
+}
+
+@media only screen and (max-width: 1199px) {
+  .single-footer-widget p {
+    font-size: 0.8em;
+  }
+}
+
+.default-btn.footer-btn {
+  width: 100%;
+  text-align: center;
+  color: #ef746f !important;
+  border-color: #ef746f;
+}
+
+.default-btn.footer-btn:hover {
+  background-color: #ef746f !important;
+  border-color: #ef746f !important;
+}
+
+.m-auto {
+  margin-right: 0px !important;
+}
+
+.single-blog-item .blog-content {
+  min-height: 400px;
+  padding-top: 220px;
+}
+
+.home-story-1 {
+  background-image: url(https://alomoves.s3.amazonaws.com/manual_uploads/shared/home/user_stories/images/Desktop_UserStory_Joe.jpg); 
+  background-size: cover;
+}
+
+.story-quote {
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.1em;
+  line-height: 1.3em;
+}
+
+.story-name {
+  color: #fff;
+  line-height: 0.5em;
+}
+
+.mean-container .mean-nav {
+  border-radius: 10px;
+}
+
+.main-slides-content {
+  max-width: 500px;
+}
+
+.main-slides-content h2 {
+  font-size: 3em;
+}
+
+h2 {
+  font-family: Dancing Script, Roboto, Helvetica, Arial, sans-serif;
+  font-size: 4em;
+  color: #000;
+}
+
+h3 {
+  font-family: Dancing Script, Roboto, Helvetica, Arial, sans-serif;
+  font-size: 4em;
+}
+
+p {
+  font-family: Montserrat;
+  font-weight: 400;
+  color: #000;
+  font-size: 0.9em;
+}
+
+.services-tab-content h4 {
+  font-family: Montserrat;
+  color: #ab3e5b;
+  font-weight: 600;
+}
+
+.philosophy-item .philosophy-content h4 {
+  font-family: Montserrat;
+  font-style: normal;
+  color: #fff;
+  font-weight: 600;
+}
+
+.main-navbar .navbar .navbar-nav .nav-item a {
+  font-size: 0.9em;
+  font-weight: 500;
+  color: #000;
+}
+
+.copyright-area .copyright-area-content p, 
+.copyright-area .copyright-area-content a{
+  font-weight: 400;
+  font-size: 0.8em;
+}
+
+.page-banner-with-full-image {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.page-banner-with-full-image.item-bg3,
+.page-banner-with-full-image::before {
+  background-color: #e4dcd7;
+  background-image: none;
+}
+
+.page-banner-with-full-image.item-bg4 {
+  padding-top: 250px;
+  background-attachment: unset;
+  background-image: url('../imgs/about-bg.png');
+}
+
+.page-banner-with-full-image.item-bg4::before {
+  background-color: unset;
+}
+
+@media only screen and (min-width: 576px) and (max-width: 991px) {
+  .page-banner-with-full-image.item-bg4 {
+    background-size: contain;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .page-banner-with-full-image.item-bg4 {
+    background-size: cover;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .section-title.what-is-text {
+    margin-bottom: 0px !important;
+    font-size: 0.7em;
+  }
+}
+
+.page-banner-content-two h2.about-pretitle {
+  color: #f5f2ee; 
+  line-height: 0em; 
+  font-size: 4em;
+}
+
+.page-banner-content-two h2.about-title {
+  color: #f5f2ee; 
+  font-size: 8em;
+}
+
+.philosophy-image2 {
+  z-index: 1;
+  margin-top: 2em;
+}
+
+@media only screen and (max-width: 991px) {
+  .page-banner-content-two h2.about-pretitle {
+    font-size: 2em;
+  }
+
+  .philosophy-content {
+    padding-top: 2em;
+  }
+
+  .philosophy-image-png {
+    display: block;
+    margin: auto;
+  }
+
+  .philosophy-content .section-title {
+    text-align: center !important;
+  }
+
+  .philosophy-content .section-title h2 {
+    font-size: 2em;
+  }
+
+  .promise-list {
+    margin-top: 1em;
+  }
+}
+
+.promise-list {
+  margin-top: 1em;
+}
+
+@media only screen and (max-width: 575px) {
+  .page-banner-content-two h2.about-title {
+    font-size: 6em;
+  }
+}
+
+.page-banner-content-two h2 {
+  color: #ab3e5b;
+}
+
+.navbar-area.no-sticky {
+  position: relative !important;
+  background-color: #f5f2ee;
+}
+
+.navbar-area.is-sticky {
+  background-color: #f5f2ee;
+}
+
+@media only screen and (max-width: 1199px) {
+  .main-slides-item::before {
+    background-color: rgba(245, 242, 238, 0.7);
+  }
+
+  .mean-container .mean-bar {
+    position: absolute;
+    width: fit-content;
+    right: 0px;
+  }
+
+  .mean-container .mean-nav {
+    position: fixed;
+    left: 0px;
+  }
+
+  .mean-container .mean-nav ul li a {
+    width: 100vw;
+  }
+
+  .main-responsive-nav .main-responsive-menu.mean-container .navbar-nav {
+    height: unset;
+  }
+
+  .navbar-area {
+    background-color: #f5f2ee;
+  }
+
+  .mean-container .mean-nav ul li a,
+  .mean-container .mean-nav ul li li a {
+    background-color: #f5f2ee;
+    border-top: 1px solid #e4dcd7;
+    color: #333;
+  }
+
+  .mean-container .mean-nav ul li a {
+    padding-left: 7%;
+  }
+
+  .mean-container .mean-nav ul li li a {
+    font-style: italic;
+  }
+
+  .main-responsive-nav .mean-container a.meanmenu-reveal {
+    right: 0px;
+    transition: 0s;
+  }
+
+  .mean-container .mean-nav ul li a.mean-expand {
+    text-align: left;
+    left: 0px;
+    color: #ffbe40;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .main-navbar {
+    display: unset;
+  }
+  .main-responsive-nav {
+    display: none;
+  }
+  .navbar-area {
+    background-color: rgba(245, 242, 238, 0.1);
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .main-navbar {
+    display: none;
+  }
+  .main-responsive-nav {
+    display: unset;
+  }
+}
+
+
+.main-navbar .navbar .navbar-nav .nav-item a:hover, .main-navbar .navbar .navbar-nav .nav-item a:focus, .main-navbar .navbar .navbar-nav .nav-item a.active {
+  color: #ffbe40;
+}
+
+.main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li a:hover, .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li a:focus, .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li a.active {
+  color: #ffbe40;
+}
+
+.default-btn, .optional-btn {
+  background: none !important;
+  border: 2px solid #dedede;
+  padding: 15px !important;
+  border-radius: 4px !important;
+  color: #333 !important;
+  
+  font-weight: 500 !important;
+  font-size: 0.9em !important;
+  font-family: Montserrat !important;
+}
+
+.navbar-btn .default-btn {
+  color: #000 !important;
+}
+
+.default-btn {
+  border-color: #ffbe40;
+}
+
+.default-btn:hover, .optional-btn:hover {
+  background: #ffbe40 !important;
+  border-color: #ffbe40 !important;
+  color: #fff !important;
+}
+
+.philosophy-image img {
+  border-radius: 4px;
+}
+
+.philosophy-area.stories-area,
+.philosophy-area.stories-area::before {
+  background-color: #f5f2ee;
+}
+
+.philosophy-area.stories-area.stories-2, 
+.philosophy-area.stories-area.stories-2::before {
+  background-color: #fff !important; 
+}
+
+.stories-quote {
+  padding-top: 10px;
+}
+
+.stories-text {
+  margin-block-end: 0.5em;
+}
+
+.stories-author {
+  color: #ab3e5b !important;
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.section-title p {
+  max-width: 700px;
+}
+
+.services-btn .optional-btn {
+  min-width: 35%; 
+  text-align: center;
+}
+
+.services-list-tab .tabs li a {
+  padding: 15px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  font-weight: 500;
+  font-family: Montserrat !important;
+}
+
+.services-list-tab .tabs li.current a {
+  background-color: #ab3e5b;
+}
+
+.services-list-tab .tab_content .tabs_item .services-tab-content .services-quote p,
+.philosophy-item .philosophy-content .philosophy-quote p {
+  font-style: italic;
+  font-weight: 500;
+}
+
+.philosophy-content .section-title {
+  margin-bottom: 0px;
+  text-align: left;
+}
+
+.philosophy-item .philosophy-content .philosophy-quote {
+  border-radius: 30px;
+  border-bottom-right-radius: 0px;
+}
+
+@media only screen and (max-width: 1199px) {
+  .main-responsive-nav .logo img {
+    max-width: 200px !important;
+  }
+}
